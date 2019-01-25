@@ -1,0 +1,19 @@
+{
+  "name": "sendinput",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "gypfile": true,
+  "author": "Luca Lindhorst <info@lucalindhorst.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.2"
+  }
+}
