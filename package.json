@@ -15,5 +15,6 @@
   },
   "dependencies": {
     "node-addon-api": "^1.6.2"
-  }
+  },
+  "repository": {"type": "git", "url": "https://github.com/lal12/node-sendinput" }
 }
