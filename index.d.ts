@@ -2,7 +2,7 @@ export enum KBDInputType{
     VirtualKey = 0, ScanCode = 1, Unicode = 2
 };
 export interface KBDInput{
-    up: boolean;
+    up?: boolean;
     val: number;
     type: KBDInputType;
 }
